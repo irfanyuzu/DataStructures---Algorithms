@@ -1,3 +1,8 @@
+// Linked List Implementation of Stack
+// The Program is limited to String Data Type. 
+//
+// Author : Bharath Kumar Pareek
+// Email  : bharathpareek@gmail.com
 
 public class stackImplementation {
 	private Node first;
