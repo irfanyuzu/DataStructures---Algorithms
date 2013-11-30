@@ -1,3 +1,15 @@
+// This Program can be used to :
+// 1. Find the first index of a sub-string 
+// 2. Replace the first occurence of the sub-string
+//
+// Ex: Original String = "I love Programming in Java"
+// Find String: "Programming"
+// Replace STring: "Coding"
+// Result : "I love Coding in Java"
+//
+// Author : Bharath Kumar Pareek
+// Email  : bharathpareek@gmail.com
+// 
 
 public class replaceFirstOccurenceOfString {
 	
