@@ -2,6 +2,18 @@ import java.io.*;
 
 /*
  * This Program runs on Java 7. The first argument to the programs needs to be the absolute path of the file
+ * The program determines the Mth last character in a line.
+ * 
+ * Sample Input Text File :
+ * a b c c d a v 5
+ * c v v e e 4
+ * 
+ * Output :
+ * c
+ * v
+ *
+ * Author : Bharath Kumar Pareek
+ * Email  : bharathpareek@gmail.com 
  */
 
 public class mThLastElement {
