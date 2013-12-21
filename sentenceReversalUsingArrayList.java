@@ -1,3 +1,8 @@
+// Reversing a sentence (string). This program uses extra space (Array List) to reverse the given sentence.
+//
+// Author : Bharath Kumar Pareek
+// Email  : bharathpareek@gmail.com
+
 import java.util.ArrayList;
 	
 public class sentenceReversalUsingArrayList {	
