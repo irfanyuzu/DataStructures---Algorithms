@@ -1,4 +1,18 @@
-
+/*
+ * Given an array of integers, the program will print the longest sequence of 
+ * increasing integers.
+ * 
+ * For Example : 
+ * 
+ * Input = 1,2,5,6,5,10,11,23,45,67,100,0,2,3
+ * Output = 5 10 11 23 45 67 100 
+ * 
+ * Time Complexity = O(N) , where N is the size of the array
+ * 
+ * Author : Bharath Kumar Pareek
+ * Email  : bharathpareek@gmail.com
+ * 
+*/
 public class longestSequence {
 	public static void main(String[] args) throws Exception{
 		int array[] = {1,2,5,6,5,10,11,23,45,67,100,0,2,3};
