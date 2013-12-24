@@ -1,3 +1,7 @@
+// Modified version of QuickSort which optimizes the performance of quickSort if the array has duplicate elements.
+//
+// Author : Bharath Kumar Pareek
+// Email  : bharathpareek@gmail.com
 
 public class threeWayPartitioningQuickSort {
 	public static void main(String[] args){

@@ -1,3 +1,7 @@
+// Reversing a given String
+//
+// Author : Bharath Kumar Pareek
+// Email  : bharathpareek@gmail.com
 
 public class reverseString {
 	public static void main(String[] args){

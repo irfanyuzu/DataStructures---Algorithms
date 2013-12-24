@@ -1,3 +1,9 @@
+// Given a String, the program verifies if the string is a Palindrome or not. 
+// Space Complexity = O(1)
+// Time Complexity = O(N) where N is the length of the string.
+//
+// Author : Bharath Kumar Pareek
+// Email :  bharathpareek@gmail.com
 
 public class Palindrome {
 	public static void main(String[] args){

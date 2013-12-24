@@ -1,3 +1,10 @@
+// Given two sorted list of arrays, this program will print the common elements between those two arrays. 
+// Generally, its known as Intersection of Arrays
+// Time Complexity = O(M + N) where M and N are the size of the 1st and 2nd array.
+//
+// Author : Bharath Kumar Pareek
+// Email  : bharathpareek@gmail.com
+
 import java.util.ArrayList;
 
 

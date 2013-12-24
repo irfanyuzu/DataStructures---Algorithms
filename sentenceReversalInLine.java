@@ -1,3 +1,13 @@
+// Given a Sentence (String), this program will reverse the sentence. The string is reversed in line.
+//
+// For ex : Input : I Love Programming in Java
+// output : Java in Programming Love I
+// Complexity : O(N), where N is the length of the string
+//
+// Author : Bharath Kumar Pareek
+// Email : bharathpareek@gmail.com
+
+
 import java.util.ArrayList;
 
 
@@ -6,23 +16,9 @@ public class sentenceReversalInLine {
 		String str = "Bharath Kumar Pareek";
 		str = reverse(str);		
 		System.out.println(str);
-//		ArrayList<String> list = new ArrayList<String>();
-//		int beg = 0;
-//		for(int i =0; i<str.length(); i++){
-//			if(str.charAt(i) == ' '){
-//				list.add(str.substring(beg,i));
-//				beg = i + 1;
-//			}
-//			else if (i == str.length()-1)
-//				list.add(str.substring(beg));
-//		}
-//		
-//		for(int j = list.size()-1; j>=0; j--)
-//			System.out.print(list.get(j) + " ");
 	}
 	
 	public static String reverse(String str){
-		
 		
 		char[] strArray = str.toCharArray();
 		

@@ -1,3 +1,9 @@
+// Program to determine the most frequent name from a given string Array.
+// DataStructure : HashMap
+//
+// Author : Bharath Kumar Pareek
+// Email : bharathpareek@gmail.com
+
 import java.util.HashMap;
 
 

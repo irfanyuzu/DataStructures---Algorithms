@@ -1,3 +1,7 @@
+// Given two sorted arrays, this program will merge them.
+//
+// Author : Bharath Kumar Pareek
+// Email  : bharathpareek@gmail.com
 
 public class mergeSortedArrays {
 	public static void main(String[] args){
