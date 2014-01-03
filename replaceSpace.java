@@ -1,3 +1,12 @@
+/*
+Given a String, this program will replace all the spaces with %20.
+
+Time Complexity : O(N+M)
+Space Complexity : O(N+M), where N is the length of the String, and M is 2*Number of Spaces
+
+Author : Bharath Kumar Pareek
+Email  : bharathpareek@gmail.com
+*/
 
 public class replaceSpace {
 	public static void main(String[] args){
