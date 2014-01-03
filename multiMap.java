@@ -1,3 +1,15 @@
+/*
+Given an array of Strings, the program will place the anagrams next to each other.
+Ex : 
+input {god, dog, abc, cab, man}
+output {abc, cab, dog, god, man}
+
+This program implements a HashMap which can map a key to multiple values. 
+One can use MultiMap from Guava's library as well.
+
+Author : Bharath Kumar Pareek
+Email  : bharathpareek@gmail.com
+*/
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
