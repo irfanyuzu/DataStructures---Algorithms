@@ -1,5 +1,5 @@
 /*
-Given an non empty array, the program will determine the top two smallest integers.
+Given a non empty array, the program will determine the top two smallest integers.
 Complexity = O(N) : Where N is the length of the array
 
 Author : Bharath Kumar Pareek
