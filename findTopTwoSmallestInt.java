@@ -1,4 +1,10 @@
+/*
+Given an non empty array, the program will determine the top two smallest integers.
+Complexity = O(N) : Where N is the length of the array
 
+Author : Bharath Kumar Pareek
+Email  : bharathpareek@gmail.com
+*/
 public class findTopTwoSmallestInt {
 	public static void main(String[] args){
 		int array[] = {10,0,-1,1,5,6};
