@@ -1,3 +1,13 @@
+/*
+Given a String, this program will determine if the string contains unique characters or not.
+
+Time Complexity : O(N)
+SpaceComplexity : O(N), where N is the length of the string. Here it is assumed that characters in a string belongs to
+ASCII Character Set
+
+Author : Bharath Kumar Pareek
+Email  : bharathpareek@gmail.com
+*/
 
 public class uniqueCharString {
 	public static void main(String[] args){
