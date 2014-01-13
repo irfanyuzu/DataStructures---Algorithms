@@ -1,3 +1,4 @@
+// Implementation of Priority Queue where the top most element in the heap is the Largest element
 
 public class MaxPriorityQueue {
 	
@@ -22,9 +23,6 @@ public class MaxPriorityQueue {
 			int d = str[k].compareTo(str[k/2]);			
 			if(d>0){
 				exch(k,k/2);
-//				String temp = str[k];
-//				str[k] = str[k/2];
-//				str[k/2] = temp;
 				k=k/2;
 			}
 			else break;
