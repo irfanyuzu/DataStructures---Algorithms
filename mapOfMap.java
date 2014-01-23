@@ -19,33 +19,33 @@ public class mapOfMap {
 		car.get("Honda").put("H01", 2004);
 		car.get("Hyundai").put("HY1", 2002);
 		car.get("Hyundai").put("HY2", 1995);
+		car.get("Hyundai").put("HY3", 1990);
 
-		int[] array = new int[7];
-		int k = 0;
-
+		
+		int count = 0;
+		int min = 0;
+		
 		for (String m : car.keySet()) {
 			for (String v : car.get(m).keySet()) {
-				array[k++] = car.get(m).get(v);
-			}
-		}
-
-		int min = array[0];
-		for (int i = 0; i < 7; i++) {
-			if (array[i] < min)
-				min = array[i];
-		}
-
-		for (String m : car.keySet()) {
-			for (String v : car.get(m).keySet()) {
-				if (car.get(m).get(v) == min) {
+				if (count == 0){
+					min = car.get(m).get(v);
 					carModel = v;
 					carName = m;
+					count++;
 				}
+				else {
+					if(car.get(m).get(v) < min){
+						min = car.get(m).get(v);
+						carModel = v;
+						carName = m;
+					}
+				}				
 			}
 		}
+
+
 
 		System.out.print("Earliest car was " + carName + ", Model " + carModel
 				+ " and was manufactured in " + min);
 	}
 }
-
