@@ -2,7 +2,7 @@
 * Given a character array containing integers from 0-9 as the characters, the program will sort the array.
 *
 * Time Complexity = O(N)
-* Space Complexity = O(N), where N is the size of the array
+* N is the size of the array
 *
 * Author : Bharath Kumar Pareek
 * Email  : bharathpareek@gmail.com
