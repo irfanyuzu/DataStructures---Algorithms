@@ -5,7 +5,7 @@
 *      Output= "w"
 *
 * Space Complexity = O(1)
-* Time Complexity  = O(N), where N is the size of the array
+* Time Complexity  = O(N Log N), where N is the size of the array
 *
 * The problem can be solved in linear time, if extra space is allowed (HashMap or ASCII array).
 *
