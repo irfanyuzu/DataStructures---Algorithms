@@ -1,8 +1,9 @@
 /*
 Given a String, this program will determine if the string contains unique characters or not.
 
-Time Complexity : O(N)
-SpaceComplexity : O(N), where N is the length of the string. Here it is assumed that characters in a string belongs to
+Time Complexity : O(N) 
+SpaceComplexity : O(1) - constant space
+where N is the length of the string. Here it is assumed that characters in a string belongs to
 ASCII Character Set
 
 Author : Bharath Kumar Pareek
